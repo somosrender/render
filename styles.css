@@ -680,7 +680,20 @@ summary:focus-visible {
     color var(--transition),
     transform var(--transition);
 }
+.whatsapp-card__arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.whatsapp-card__arrow svg {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+.whatsapp-card:hover .whatsapp-card__arrow {
+  transform: translate(2px, -2px);
+}
 .whatsapp-card__person {
   display: flex;
   align-items: center;
