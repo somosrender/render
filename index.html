@@ -60,6 +60,7 @@
         id="main-nav"
         aria-label="Navegación principal"
       >
+
         <ul class="main-nav__list">
           <li><a href="#servicios">Servicios</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
@@ -67,6 +68,7 @@
           <li><a href="#nosotros">Por qué Render</a></li>
           <li><a href="#faq">FAQ</a></li>
         </ul>
+
       </nav>
 
 
@@ -187,7 +189,6 @@
     <section class="section" id="servicios">
 
       <div class="container">
-
 
         <div class="section-heading">
 
@@ -329,10 +330,7 @@
 
 
 
-        <div
-          class="portfolio-layout"
-          data-reveal
-        >
+        <div class="portfolio-layout" data-reveal>
 
 
           <!-- ===================== LONG FORM ===================== -->
@@ -341,16 +339,17 @@
             <button
               class="portfolio-work"
               type="button"
-              data-video="assets/portfolio/portfoliocatgus.mp4"
+              data-video="https://github.com/somosrender/render/releases/download/portfolio-v1/portfoliocatgus.mp4"
               data-title="Edición long form para YouTube"
               data-type="YOUTUBE / LONG FORM"
+              aria-label="Reproducir edición long form para YouTube"
             >
 
               <div class="portfolio-media portfolio-media--feature">
 
                 <img
                   class="portfolio-media__image"
-                  src="assets/portfolio/portfoliocatgus.png"
+                  src="portfoliocatgus.png"
                   alt="Portada de edición long form para YouTube"
                 >
 
@@ -358,10 +357,15 @@
                   01
                 </span>
 
-                <span class="portfolio-media__play">
-                  <svg viewBox="0 0 24 24" fill="currentColor">
+                <span class="portfolio-media__play" aria-hidden="true">
+
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="currentColor"
+                  >
                     <path d="M8.5 6.4v11.2L17.5 12 8.5 6.4Z"/>
                   </svg>
+
                 </span>
 
                 <span class="portfolio-media__view mono">
@@ -404,7 +408,7 @@
           <div class="portfolio-side">
 
 
-            <!-- DOS REELS ARRIBA -->
+            <!-- ===================== REELS SUPERIORES ===================== -->
             <div class="portfolio-reels">
 
 
@@ -414,16 +418,17 @@
                 <button
                   class="portfolio-work"
                   type="button"
-                  data-video="assets/portfolio/portfolioxanu97.mp4"
+                  data-video="https://github.com/somosrender/render/releases/download/portfolio-v1/portfolioxanu97.mp4"
                   data-title="Gameplay con ritmo narrativo"
                   data-type="GAMING / SHORT FORM"
+                  aria-label="Reproducir gameplay con ritmo narrativo"
                 >
 
                   <div class="portfolio-media portfolio-media--vertical">
 
                     <img
                       class="portfolio-media__image"
-                      src="assets/portfolio/portfolioxanu97.jpg"
+                      src="portfolioxanu97.jpg"
                       alt="Gameplay editado"
                       loading="lazy"
                     >
@@ -432,10 +437,15 @@
                       02
                     </span>
 
-                    <span class="portfolio-media__play">
-                      <svg viewBox="0 0 24 24" fill="currentColor">
+                    <span class="portfolio-media__play" aria-hidden="true">
+
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                      >
                         <path d="M8.5 6.4v11.2L17.5 12 8.5 6.4Z"/>
                       </svg>
+
                     </span>
 
                   </div>
@@ -465,16 +475,17 @@
                 <button
                   class="portfolio-work"
                   type="button"
-                  data-video="assets/portfolio/creamascontenido.mp4"
+                  data-video="https://github.com/somosrender/render/releases/download/portfolio-v1/creamascontenido.mp4"
                   data-title="Contenido educativo para redes"
                   data-type="TALKING HEAD / SHORT FORM"
+                  aria-label="Reproducir contenido educativo para redes"
                 >
 
                   <div class="portfolio-media portfolio-media--vertical">
 
                     <img
                       class="portfolio-media__image"
-                      src="assets/portfolio/creamascontenido.jpg"
+                      src="creamascontenido.jpg"
                       alt="Contenido educativo para redes"
                       loading="lazy"
                     >
@@ -483,10 +494,15 @@
                       03
                     </span>
 
-                    <span class="portfolio-media__play">
-                      <svg viewBox="0 0 24 24" fill="currentColor">
+                    <span class="portfolio-media__play" aria-hidden="true">
+
+                      <svg
+                        viewBox="0 0 24 24"
+                        fill="currentColor"
+                      >
                         <path d="M8.5 6.4v11.2L17.5 12 8.5 6.4Z"/>
                       </svg>
+
                     </span>
 
                   </div>
@@ -519,16 +535,17 @@
               <button
                 class="portfolio-breakdown__button portfolio-work"
                 type="button"
-                data-video="assets/portfolio/portfoliorenderantesdespues.mp4"
+                data-video="https://github.com/somosrender/render/releases/download/portfolio-v1/portfoliorenderantesdespues.mp4"
                 data-title="De crudo a pieza final"
                 data-type="BEFORE / AFTER"
+                aria-label="Reproducir antes y después de edición"
               >
 
 
                 <div class="portfolio-breakdown__visual">
 
                   <img
-                    src="assets/portfolio/portfoliorenderantesdespues.jpg"
+                    src="portfoliorenderantesdespues.jpg"
                     alt="Antes y después de edición"
                     loading="lazy"
                   >
@@ -538,9 +555,12 @@
                   </span>
 
 
-                  <span class="portfolio-breakdown__play">
+                  <span class="portfolio-breakdown__play" aria-hidden="true">
 
-                    <svg viewBox="0 0 24 24" fill="currentColor">
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="currentColor"
+                    >
                       <path d="M8.5 6.4v11.2L17.5 12 8.5 6.4Z"/>
                     </svg>
 
@@ -625,7 +645,9 @@
               01
             </span>
 
-            <h3>Brief</h3>
+            <h3>
+              Brief
+            </h3>
 
             <p>
               Entendemos tu marca, objetivos, referencias y forma de trabajar
@@ -642,7 +664,9 @@
               02
             </span>
 
-            <h3>Edición</h3>
+            <h3>
+              Edición
+            </h3>
 
             <p>
               Construimos la pieza respetando el objetivo, el estilo
@@ -659,7 +683,9 @@
               03
             </span>
 
-            <h3>Revisión</h3>
+            <h3>
+              Revisión
+            </h3>
 
             <p>
               Recibimos tu feedback, ajustamos lo necesario y mantenemos
@@ -676,7 +702,9 @@
               04
             </span>
 
-            <h3>Entrega</h3>
+            <h3>
+              Entrega
+            </h3>
 
             <p>
               Entregamos los archivos finales en los formatos acordados,
@@ -695,7 +723,10 @@
 
 
     <!-- ===================== POR QUÉ RENDER ===================== -->
-    <section class="section section--alt why-render" id="nosotros">
+    <section
+      class="section section--alt why-render"
+      id="nosotros"
+    >
 
       <div class="container why-render__layout">
 
@@ -822,7 +853,10 @@
 
 
     <!-- ===================== TESTIMONIOS ===================== -->
-    <section class="section testimonials-section" id="testimonios">
+    <section
+      class="section testimonials-section"
+      id="testimonios"
+    >
 
       <div class="container">
 
@@ -929,7 +963,10 @@
 
 
     <!-- ===================== FAQ ===================== -->
-    <section class="section section--alt" id="faq">
+    <section
+      class="section section--alt"
+      id="faq"
+    >
 
       <div class="container container--narrow">
 
@@ -1013,7 +1050,10 @@
 
 
     <!-- ===================== CONTACTO ===================== -->
-    <section class="section contact" id="contacto">
+    <section
+      class="section contact"
+      id="contacto"
+    >
 
       <div class="container contact__layout">
 
@@ -1134,14 +1174,20 @@
 
     <div class="container site-footer__inner">
 
+
       <div class="site-footer__brand">
 
-        <a href="#inicio" class="logo logo--footer">
+        <a
+          href="#inicio"
+          class="logo logo--footer"
+        >
+
           <img
             src="logo-render-mark.png"
             alt="render."
             class="logo__img"
           >
+
         </a>
 
         <p>
@@ -1151,17 +1197,37 @@
       </div>
 
 
+
       <nav class="site-footer__nav">
-        <a href="#servicios">Servicios</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#proceso">Proceso</a>
-        <a href="#nosotros">Por qué Render</a>
-        <a href="#contacto">Contacto</a>
+
+        <a href="#servicios">
+          Servicios
+        </a>
+
+        <a href="#portfolio">
+          Portfolio
+        </a>
+
+        <a href="#proceso">
+          Proceso
+        </a>
+
+        <a href="#nosotros">
+          Por qué Render
+        </a>
+
+        <a href="#contacto">
+          Contacto
+        </a>
+
       </nav>
+
 
 
       <div class="site-footer__social">
 
+
+        <!-- INSTAGRAM -->
         <a
           href="https://www.instagram.com/somosrenderar"
           target="_blank"
@@ -1169,16 +1235,55 @@
           class="site-footer__social-link"
           aria-label="Instagram de Render"
         >
-          <span class="site-footer__social-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"/>
-              <circle cx="12" cy="12" r="4.2" stroke="currentColor" stroke-width="1.8"/>
-              <circle cx="17.2" cy="6.8" r="1.2" fill="currentColor"/>
+
+          <span
+            class="site-footer__social-icon"
+            aria-hidden="true"
+          >
+
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+
+              <rect
+                x="3"
+                y="3"
+                width="18"
+                height="18"
+                rx="5"
+                stroke="currentColor"
+                stroke-width="1.8"
+              />
+
+              <circle
+                cx="12"
+                cy="12"
+                r="4.2"
+                stroke="currentColor"
+                stroke-width="1.8"
+              />
+
+              <circle
+                cx="17.2"
+                cy="6.8"
+                r="1.2"
+                fill="currentColor"
+              />
+
             </svg>
+
           </span>
-          <span>@somosrenderar</span>
+
+          <span>
+            @somosrenderar
+          </span>
+
         </a>
 
+
+
+        <!-- TIKTOK -->
         <a
           href="https://www.tiktok.com/@somosrenderar"
           target="_blank"
@@ -1186,46 +1291,113 @@
           class="site-footer__social-link"
           aria-label="TikTok de Render"
         >
-          <span class="site-footer__social-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
+
+          <span
+            class="site-footer__social-icon"
+            aria-hidden="true"
+          >
+
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+
               <path
                 d="M14 4c.5 2 1.8 3.7 4 4.3v2.6a7.1 7.1 0 0 1-4-1.3v5.4a4.9 4.9 0 1 1-4.9-4.9c.3 0 .7 0 1 .1v2.7a2.4 2.4 0 1 0 1.4 2.2V4H14Z"
                 fill="currentColor"
               />
+
             </svg>
+
           </span>
-          <span>@somosrenderar</span>
+
+          <span>
+            @somosrenderar
+          </span>
+
         </a>
 
-        <a
-          href="#"
-          class="site-footer__social-link"
-          aria-label="LinkedIn de Render"
-        >
-          <span class="site-footer__social-icon" aria-hidden="true">
-            <svg viewBox="0 0 24 24" fill="none">
-              <rect x="3" y="3" width="18" height="18" rx="3" stroke="currentColor" stroke-width="1.8"/>
-              <path d="M8 10v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
-              <circle cx="8" cy="7.5" r="1.1" fill="currentColor"/>
-              <path d="M12 16v-3.2c0-1.4.9-2.3 2.1-2.3 1.2 0 1.9.8 1.9 2.3V16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M12 10v6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+
+
+        <!-- LINKEDIN -->
+        <span class="site-footer__social-link">
+
+          <span
+            class="site-footer__social-icon"
+            aria-hidden="true"
+          >
+
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+
+              <rect
+                x="3"
+                y="3"
+                width="18"
+                height="18"
+                rx="3"
+                stroke="currentColor"
+                stroke-width="1.8"
+              />
+
+              <path
+                d="M8 10v6"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+              />
+
+              <circle
+                cx="8"
+                cy="7.5"
+                r="1.1"
+                fill="currentColor"
+              />
+
+              <path
+                d="M12 16v-3.2c0-1.4.9-2.3 2.1-2.3 1.2 0 1.9.8 1.9 2.3V16"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+
+              <path
+                d="M12 10v6"
+                stroke="currentColor"
+                stroke-width="1.8"
+                stroke-linecap="round"
+              />
+
             </svg>
+
           </span>
-          <span>LinkedIn</span>
-        </a>
+
+          <span>
+            LinkedIn
+          </span>
+
+        </span>
+
 
       </div>
 
     </div>
 
 
+
     <div class="container site-footer__legal">
+
       <p>
         © <span id="year"></span> render. Todos los derechos reservados.
       </p>
+
     </div>
 
   </footer>
+
 
 
   <!-- ===================== VIDEO MODAL ===================== -->
